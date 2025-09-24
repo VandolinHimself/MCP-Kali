@@ -151,3 +151,4 @@ class IkeScanTool(NetworkReconTool):
         """Scan for IKE/IPsec VPN servers."""
         args = [target]
         return await self.execute_command(args, timeout=600)
+

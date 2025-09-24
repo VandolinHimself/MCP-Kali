@@ -56,3 +56,4 @@ setup(
         "Documentation": "https://github.com/example/kali-mcp-server/blob/main/README.md",
     },
 )
+

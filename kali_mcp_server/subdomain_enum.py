@@ -52,3 +52,4 @@ class AmassTool(OSINTTool):
         """Gather intelligence on the target domain."""
         args = ["intel", "-d", domain]
         return await self.execute_command(args, timeout=1800)
+

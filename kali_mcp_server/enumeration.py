@@ -107,3 +107,4 @@ class LdapsearchTool(EnumerationTool):
         if password:
             args.extend(["-w", password])
         return await self.execute_command(args, timeout=600)
+

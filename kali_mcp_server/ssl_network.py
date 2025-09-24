@@ -105,3 +105,4 @@ class WgetTool(NetworkReconTool):
         """Spider website to discover URLs."""
         args = ["--spider", "--recursive", f"--level={max_depth}", "--no-parent", url]
         return await self.execute_command(args, timeout=1800)
+

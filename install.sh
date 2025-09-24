@@ -83,3 +83,4 @@ echo "🚀 To start the server:"
 echo "   kali-mcp-server"
 echo ""
 echo "📖 For more information, see README.md"
+

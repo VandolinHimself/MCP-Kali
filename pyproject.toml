@@ -35,3 +35,4 @@ Issues = "https://github.com/example/kali-mcp-server/issues"
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["kali_mcp_server*"]
+

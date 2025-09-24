@@ -86,3 +86,4 @@ class WirelessTool(BaseKaliTool):
 class OSINTTool(BaseKaliTool):
     """Base class for OSINT tools."""
     pass
+
