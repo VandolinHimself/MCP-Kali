@@ -1,0 +1,31 @@
+{
+  "server": {
+    "name": "kali-mcp-server",
+    "version": "1.0.0",
+    "description": "MCP server for Kali Linux penetration testing tools",
+    "transport": "stdio",
+    "log_level": "INFO"
+  },
+  "tools": {
+    "timeouts": {
+      "quick_scan": 300,
+      "medium_scan": 1800,
+      "long_scan": 3600
+    },
+    "default_wordlists": {
+      "directories": "/usr/share/wordlists/dirb/common.txt",
+      "dns": "/usr/share/dnsenum/dns.txt",
+      "subdomains": "/usr/share/wordlists/dirb/common.txt"
+    },
+    "output_directory": "/tmp/kali-mcp-server"
+  },
+  "security": {
+    "require_confirmation": false,
+    "max_concurrent_scans": 3,
+    "rate_limiting": {
+      "enabled": true,
+      "requests_per_minute": 60
+    }
+  }
+}
+

@@ -131,14 +131,17 @@ dmypy.json
 # Tool output files
 *.cap
 *.pcap
-*.txt
 *.xml
-*.json
 *.csv
 *.html
 scan_results/
 output/
 logs/
+
+# Important: Don't ignore requirements.txt and other essential files
+!requirements.txt
+!README.txt
+!*.md
 
 # Temporary files
 tmp/
