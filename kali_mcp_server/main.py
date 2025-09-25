@@ -3,7 +3,7 @@
 import asyncio
 import argparse
 import logging
-from .server import main
+from .server import main as server_main
 
 def cli():
     """Command line interface for the Kali MCP Server."""
@@ -22,7 +22,7 @@ def cli():
     )
     
     # Run the server
-    asyncio.run(main())
+    asyncio.run(server_main())
 
 if __name__ == "__main__":
     cli()
