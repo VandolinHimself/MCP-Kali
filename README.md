@@ -65,8 +65,8 @@ A comprehensive Model Context Protocol (MCP) server that provides access to popu
 
 ### Install from Source
 ```bash
-git clone <repository-url>
-cd kali-mcp-server
+git clone https://github.com/VandolinHimself/MCP-Kali
+cd MCP-Kali
 pip install -e .
 ```
 
