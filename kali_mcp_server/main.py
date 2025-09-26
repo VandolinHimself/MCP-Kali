@@ -24,6 +24,10 @@ def cli():
     # Run the server
     asyncio.run(server_main())
 
+def main():
+    """Main entry point for the Kali MCP Server."""
+    cli()
+
 if __name__ == "__main__":
     cli()
 

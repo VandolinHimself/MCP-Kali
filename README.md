@@ -218,3 +218,8 @@ For issues, feature requests, or questions:
 - Structured tool output and error handling
 - Automatic tool availability checking
 
+
+
+
+
+

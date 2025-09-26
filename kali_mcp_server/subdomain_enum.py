@@ -53,3 +53,8 @@ class AmassTool(OSINTTool):
         args = ["intel", "-d", domain]
         return await self.execute_command(args, timeout=1800)
 
+
+
+
+
+

@@ -152,3 +152,6 @@ class IkeScanTool(NetworkReconTool):
         args = [target]
         return await self.execute_command(args, timeout=600)
 
+
+
+

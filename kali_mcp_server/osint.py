@@ -81,3 +81,8 @@ class MaltegoTool(OSINTTool):
         args = ["--export", graph_file, "--format", output_format]
         return await self.execute_command(args, timeout=120)
 
+
+
+
+
+

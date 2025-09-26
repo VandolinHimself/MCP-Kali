@@ -106,3 +106,8 @@ class WgetTool(NetworkReconTool):
         args = ["--spider", "--recursive", f"--level={max_depth}", "--no-parent", url]
         return await self.execute_command(args, timeout=1800)
 
+
+
+
+
+

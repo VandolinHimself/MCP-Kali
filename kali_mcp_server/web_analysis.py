@@ -150,3 +150,8 @@ class ArachniTool(WebAnalysisTool):
             args.extend(["--scope-exclude-pattern", scope_exclude])
         return await self.execute_command(args, timeout=3600)
 
+
+
+
+
+

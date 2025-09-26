@@ -86,3 +86,8 @@ class BettercapTool(WirelessTool):
         args = ["-iface", interface, "-T", target, "-eval", f"set arp.spoof.targets {target}; set arp.spoof.fullduplex true; arp.spoof on"]
         return await self.execute_command(args, timeout=300)
 
+
+
+
+
+
