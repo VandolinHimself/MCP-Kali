@@ -43,7 +43,7 @@ setup(
     install_requires=read_requirements(),
     entry_points={
         "console_scripts": [
-            "kali-mcp-server=kali_mcp_server.main:cli",
+            "kali-mcp-server=kali_mcp_server.main:main",
         ],
     },
     include_package_data=True,
